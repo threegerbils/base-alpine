@@ -1,4 +1,4 @@
-FROM gliderlabs/alpine:3.4
+FROM gliderlabs/alpine:edge
 MAINTAINER Tony Voyle <tvoyle@gmail.com>
 
 COPY rootfs /
