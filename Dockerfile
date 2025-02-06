@@ -1,5 +1,5 @@
-FROM gliderlabs/alpine:edge
-MAINTAINER Tony Voyle <tvoyle@gmail.com>
+FROM gliderlabs/alpine:3.7
+MAINTAINER Althea Voyle <althea@voyle.nz>
 
 COPY rootfs /
 ADD https://github.com/just-containers/s6-overlay/releases/download/v1.18.1.1/s6-overlay-amd64.tar.gz /tmp/s6-overlay.tar.gz
